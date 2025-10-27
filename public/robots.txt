@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Multiple sitemaps for different domains
+Sitemap: https://hijblr.com/sitemap.xml
+Sitemap: https://hopeinjesusbangalore.com/sitemap.xml

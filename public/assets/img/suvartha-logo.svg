@@ -1,0 +1,58 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer Circle -->
+  <circle cx="100" cy="100" r="96" fill="#065f46" stroke="#10b981" stroke-width="4"/>
+  
+  <!-- Inner Decorative Circle -->
+  <circle cx="100" cy="100" r="76" fill="none" stroke="#047857" stroke-width="2" stroke-dasharray="6,4"/>
+  
+  <!-- Cross Symbol -->
+  <g transform="translate(100,100)">
+    <!-- Vertical bar of cross -->
+    <rect x="-4" y="-40" width="8" height="80" fill="#10b981" rx="4"/>
+    <!-- Horizontal bar of cross -->
+    <rect x="-24" y="-4" width="48" height="8" fill="#10b981" rx="4"/>
+  </g>
+  
+  <!-- Decorative Elements - Rays -->
+  <g transform="translate(100,100)">
+    <g transform="rotate(0)">
+      <rect x="-1" y="-64" width="2" height="12" fill="#047857" rx="1"/>
+    </g>
+    <g transform="rotate(45)">
+      <rect x="-1" y="-64" width="2" height="12" fill="#047857" rx="1"/>
+    </g>
+    <g transform="rotate(90)">
+      <rect x="-1" y="-64" width="2" height="12" fill="#047857" rx="1"/>
+    </g>
+    <g transform="rotate(135)">
+      <rect x="-1" y="-64" width="2" height="12" fill="#047857" rx="1"/>
+    </g>
+    <g transform="rotate(180)">
+      <rect x="-1" y="-64" width="2" height="12" fill="#047857" rx="1"/>
+    </g>
+    <g transform="rotate(225)">
+      <rect x="-1" y="-64" width="2" height="12" fill="#047857" rx="1"/>
+    </g>
+    <g transform="rotate(270)">
+      <rect x="-1" y="-64" width="2" height="12" fill="#047857" rx="1"/>
+    </g>
+    <g transform="rotate(315)">
+      <rect x="-1" y="-64" width="2" height="12" fill="#047857" rx="1"/>
+    </g>
+  </g>
+  
+  <!-- Text Arc - "SUVARTHA MINISTRIES" -->
+  <defs>
+    <path id="textCircle" d="M 100,100 m -50,0 a 50,50 0 1,1 100,0 a 50,50 0 1,1 -100,0"/>
+  </defs>
+  <text fontSize="12" fill="#10b981" font-family="serif" font-weight="bold">
+    <textPath href="#textCircle" startOffset="25%">
+      SUVARTHA MINISTRIES UK
+    </textPath>
+  </text>
+  
+  <!-- Bottom Text - "EST 1925" -->
+  <text x="100" y="170" text-anchor="middle" fontSize="8" fill="#047857" font-family="serif" font-weight="600">
+    EST 1925
+  </text>
+</svg>

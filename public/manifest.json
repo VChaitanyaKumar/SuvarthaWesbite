@@ -1,0 +1,26 @@
+{
+  "name": "HOPE IN JESUS APOSTOLIC CHURCH OF CHRIST",
+  "short_name": "HIJBLR",
+  "description": "HOPE IN JESUS APOSTOLIC CHURCH OF CHRIST, HOPE IN JESUS INTERNATIONAL REVIVAL CENTRE, BANGALORE",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#16213e",
+  "icons": [
+    {
+      "src": "/assets/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/assets/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/assets/favicon.ico", 
+      "sizes": "16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
